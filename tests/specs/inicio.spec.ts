@@ -1,7 +1,7 @@
 import { test, expect } from '../fixtures/app.fixture';
 
 test.describe('Inicio', () => {
-  test('muestra la presentación de la empresa', async ({ inicioPage }) => {
+  test('muestra la presentación de la Empresa M', async ({ inicioPage }) => {
     await inicioPage.abrir();
 
     await inicioPage.comprobarCargada();
