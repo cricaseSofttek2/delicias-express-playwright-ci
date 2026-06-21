@@ -73,6 +73,9 @@ module.exports = [
           allowEmptyCatch: true,
         },
       ],
+      'no-redeclare': {
+        "builtinGlobals": false
+      }
     },
   },
  
